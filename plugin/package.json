@@ -1,0 +1,11 @@
+{
+  "name": "TollHouse",
+  "version": "0.1.0",
+  "scripts": {
+    "test": "mocha test/tollhouse_test.js" },
+
+  "devDependencies": {
+    "mocha": "^2.1.0",
+    "chai": "*"
+  }
+}

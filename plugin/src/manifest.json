@@ -1,0 +1,35 @@
+{
+  "manifest_version": 2,
+
+  "name": "TollHouse",
+  "version": "0.1",
+
+  "description": "Determines correlations between tracking cookies and ads.",
+
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+
+  "content_scripts": [
+    {
+      "matches": [ "<all_urls>" ],
+      "js": [ "jquery.min.js", "tollhouse.js", "abpAdDomains.js",
+              "abpBlackList.js", "abpSureThing.js", "abpTopLevelList.js",
+              "abpURLSpam.js", "abpSizes.js"],
+      "all_frames": true,
+      "run_at": "document_end"
+    }
+  ],
+
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>",
+    "http://localhost/",
+    "tabs",
+    "https://*/*",
+    "http://*/",
+    "notifications"
+  ]
+}

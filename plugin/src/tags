@@ -1,0 +1,45 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+account_key	background.js	/^var account_key = "TOLLHOUSE_ACCOUNT_ID";$/;"	v
+blockTrackerDomains	tollhouse.js	/^function blockTrackerDomains(domains)$/;"	f
+collectAds	tollhouse.js	/^function collectAds() {$/;"	f
+contactTrackerObserver	background.js	/^function contactTrackerObserver() {$/;"	f
+debugLog	tollhouse.js	/^function debugLog(msg) {$/;"	f
+getAccountId	background.js	/^function getAccountId() {$/;"	f
+getAccountIdFromTab	background.js	/^function getAccountIdFromTab(tabUrl) {$/;"	f
+getAdObject	tollhouse.js	/^function getAdObject(adElement) {$/;"	f
+getTrackersToBlock	tollhouse.js	/^function getTrackersToBlock()$/;"	f
+handleNewTrackerNotification	background.js	/^function handleNewTrackerNotification(trackerData) {$/;"	f
+hostFromURL	tollhouse.js	/^function hostFromURL(url)$/;"	f
+initialize	background.js	/^function initialize(){$/;"	f
+initializeMessageListeners	background.js	/^function initializeMessageListeners() {$/;"	f
+isAd	tollhouse.js	/^function isAd(adObj) {$/;"	f
+isAdDomain	tollhouse.js	/^function isAdDomain(adObj) {$/;"	f
+isAdSize	tollhouse.js	/^function isAdSize(adObj) {$/;"	f
+isBlackListDomain	tollhouse.js	/^function isBlackListDomain(adObj) {$/;"	f
+isElementNamedAd	tollhouse.js	/^function isElementNamedAd(adObj) {$/;"	f
+isHttps	tollhouse.js	/^function isHttps() {$/;"	f
+isLogged	background.js	/^function isLogged(tab_url, tracker_url) {$/;"	f
+isSureThing	tollhouse.js	/^function isSureThing(adObj) {$/;"	f
+isTopLevelAdDomain	tollhouse.js	/^function isTopLevelAdDomain(adObj) {$/;"	f
+isTrackingPixel	tollhouse.js	/^function isTrackingPixel(adObj) {$/;"	f
+isURLSpam	tollhouse.js	/^function isURLSpam(adObj) {$/;"	f
+logAd	tollhouse.js	/^function logAd(adObj) {$/;"	f
+logAdWithAccId	background.js	/^function logAdWithAccId(ad_data) {$/;"	f
+logTracker	background.js	/^function logTracker(tab_url, tracker_url, tracker_type) {$/;"	f
+log_cache	background.js	/^var log_cache = {};$/;"	v
+log_debug	tollhouse.js	/^var log_debug = false;$/;"	v
+log_to_post_dump_server	background.js	/^function log_to_post_dump_server(dir,text) {$/;"	f
+processAds	tollhouse.js	/^function processAds(potentialAds) {$/;"	f
+server_url_ad	background.js	/^var server_url_ad = 'http:\/\/localhost:3000\/display_ad';$/;"	v
+server_url_tracker	background.js	/^var server_url_tracker = 'http:\/\/localhost:3000\/tracker';$/;"	v
+src	tollhouse.js	/^    type: "logAd",$/;"	p	class:logAd.ad_data
+storeAccountId	background.js	/^function storeAccountId(accountId) {$/;"	f
+to_id	background.js	/^var to_id = "bngijgihoedegphjemmmhihlaggejkne";$/;"	v
+to_id	tollhouse.js	/^var to_id = "bngijgihoedegphjemmmhihlaggejkne";$/;"	v
+type	tollhouse.js	/^  var ad_data = {$/;"	p	class:logAd.ad_data
+xhr.onload	background.js	/^  xhr.open("POST", "http:\/\/posttestserver.com\/post.php?dir=" + dir, true);$/;"	f

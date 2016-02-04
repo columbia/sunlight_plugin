@@ -1,0 +1,13 @@
+abpSureThing = ["doubleclick.net",
+"googlesyndication.com",
+"adscdn.jetpackdigital.com",
+"adsonar.com",
+"shareasale.com",
+"atdmt.com", 
+"adx/images/ADS",
+"amazon-adsystem.com",
+"google_ads",
+"ttn_adspaces",
+"adspaces",
+"criteo.com", 
+"rubiconproject.com"]
